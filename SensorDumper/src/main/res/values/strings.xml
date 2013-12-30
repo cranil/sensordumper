@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Sensor Dumper</string>
+    <string name="action_settings">Settings</string>
+    <string name="start_dump_button_text">Start Dumping</string>
+    <string name="stop_dump_button_text">Stop Dumping</string>
+    <string name="start_stream_button_text">Start Streaming</string>
+    <string name="stop_stream_button_text">Stop Streaming</string>
+
+</resources>

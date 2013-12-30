@@ -1,0 +1,27 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="in.thethinktank.sensordumper.MainActivity"
+    tools:ignore="MergeRootFrame"
+    android:padding="5dp">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/start_dump_button_text"
+        android:id="@+id/start_stop_dump_button"
+        android:layout_gravity="left|center_vertical"
+        android:background="#00FF00"
+        android:padding="5dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/start_stream_button_text"
+        android:id="@+id/start_stop_wifi_button"
+        android:layout_gravity="right|center_vertical"
+        android:background="#00FF00"
+        android:padding="5dp" />
+</FrameLayout>
