@@ -33,6 +33,7 @@ public class SensorDumperService extends Service {
         readers.add(new RotationReader(mSensorManager, new File(dir, timestamp + "-rotdump.txt")));
         readers.add(new LocationReader(mLocationManager, new File(dir, timestamp + "-gpsdump.txt")));
         readers.add(new GravityReader(mSensorManager, new File(dir, timestamp + "-gravdump.txt")));
+        readers.add(new OrientationReader(mSensorManager, new File(dir, timestamp + "-magfdump.txt")));
     }
 
     @Override
